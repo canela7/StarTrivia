@@ -18,6 +18,7 @@
 		DABF3C7B21DD6A790015354B /* BlackBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF3C7A21DD6A790015354B /* BlackBgView.swift */; };
 		DABF3C7E21DD6AFC0015354B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF3C7D21DD6AFC0015354B /* Constants.swift */; };
 		DABF3C8321DD78E80015354B /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF3C8221DD78E80015354B /* PersonApi.swift */; };
+		DABF3C8521DD8E920015354B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF3C8421DD8E920015354B /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		DABF3C7A21DD6A790015354B /* BlackBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBgView.swift; sourceTree = "<group>"; };
 		DABF3C7D21DD6AFC0015354B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DABF3C8221DD78E80015354B /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
+		DABF3C8421DD8E920015354B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		DABF3C7921DD60850015354B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DABF3C8421DD8E920015354B /* Person.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DABF3C8521DD8E920015354B /* Person.swift in Sources */,
 				DABF3C6021DD55F50015354B /* SelectPersonVC.swift in Sources */,
 				DABF3C5E21DD55F50015354B /* AppDelegate.swift in Sources */,
 				DABF3C7B21DD6A790015354B /* BlackBgView.swift in Sources */,

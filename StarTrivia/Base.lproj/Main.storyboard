@@ -204,6 +204,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="N0R-6l-zSQ"/>
                     <connections>
+                        <outlet property="birthYearLbl" destination="wKQ-Q6-ec9" id="aOM-ZI-sbM"/>
+                        <outlet property="genderLbl" destination="z8B-b1-IeR" id="YQb-ho-xbM"/>
+                        <outlet property="hairLbl" destination="4oJ-CX-HgN" id="Fc5-XQ-LpM"/>
+                        <outlet property="heightLbl" destination="BPO-XU-L7c" id="Obw-c4-QwW"/>
+                        <outlet property="massLbl" destination="QRH-JE-8JY" id="ul5-Hu-o08"/>
+                        <outlet property="nameLbl" destination="knm-c1-XHB" id="4RL-QX-wQl"/>
                         <outlet property="stackBg" destination="UCI-D8-bJi" id="Dln-iX-mIm"/>
                     </connections>
                 </viewController>
