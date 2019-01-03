@@ -10,10 +10,19 @@ import UIKit
 
 class SelectPersonVC: UIViewController {
 
+    @IBOutlet weak var stackBg: UIView!
+    
+    var personApi = PersonApi()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        stackBg.layer.cornerRadius = 14
+        personApi.getRandomPersonUrlSession()
     }
+    
+    
+    
+    
 
 
 }

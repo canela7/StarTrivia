@@ -64,7 +64,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vj2-gO-vDx">
                                                 <rect key="frame" x="0.0" y="37.5" width="111" height="27.5"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HEIGHT:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7d6-eU-pX0">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Height:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7d6-eU-pX0">
                                                         <rect key="frame" x="0.0" y="0.0" width="73.5" height="27.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="73.5" id="dwq-n1-Tu4"/>
@@ -173,16 +173,29 @@
                                     <constraint firstAttribute="bottom" secondItem="0St-zq-o7t" secondAttribute="bottom" constant="20" id="mvg-zE-7cf"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sb8-W4-eBx" customClass="BlackBgButton" customModule="StarTrivia" customModuleProvider="target">
+                                <rect key="frame" x="102" y="799" width="210" height="43"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59888698630000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="210" id="Wap-yT-Guj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="StarJedi" family="Star Jedi" pointSize="19"/>
+                                <state key="normal" title="$ Random #">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="axN-pp-CRF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="14X-8J-cab"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sb8-W4-eBx" secondAttribute="bottom" constant="20" id="2i1-Bp-MpO"/>
                             <constraint firstItem="UCI-D8-bJi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Pbb-u9-0VZ"/>
                             <constraint firstItem="3nn-6j-Pob" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QNP-EY-uEW"/>
                             <constraint firstItem="3nn-6j-Pob" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="QRv-sd-OwE"/>
                             <constraint firstItem="UCI-D8-bJi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="TAi-Qs-8XS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3nn-6j-Pob" secondAttribute="trailing" constant="20" id="TbG-Rm-Kr6"/>
                             <constraint firstItem="axN-pp-CRF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YP0-wO-Txd"/>
+                            <constraint firstItem="sb8-W4-eBx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Z1j-of-ZXY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UCI-D8-bJi" secondAttribute="trailing" constant="20" id="v06-sA-Y59"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="axN-pp-CRF" secondAttribute="trailing" id="yWt-Rf-le9"/>
                             <constraint firstAttribute="bottom" secondItem="axN-pp-CRF" secondAttribute="bottom" id="zok-AK-n1W"/>
@@ -190,10 +203,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="N0R-6l-zSQ"/>
+                    <connections>
+                        <outlet property="stackBg" destination="UCI-D8-bJi" id="Dln-iX-mIm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1079.2" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1078.2608695652175" y="133.25892857142856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1q5-R4-O3D">
