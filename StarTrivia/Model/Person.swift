@@ -10,7 +10,7 @@ import Foundation
 
 
 
-struct Person {
+struct Person{
     
     let name: String
     let height: String
@@ -22,5 +22,22 @@ struct Person {
     let filmUrls: [String]
     let vehicleUrls: [String]
     let starshipsUrls: [String]
+    
+    
+    
+//    enum CodingKeys: String, CodingKey {
+//        case name
+//        case height
+//        case masss
+//        case hair = "hair_color"
+//        case birthYear = "birth_year"
+//        case gender
+//        case homeworldUrl = "homeworld"
+//        case filmUrls = "films"
+//        case vehicleUrls = "vehicles"
+//        case starshipsUrls = "starshipUrls"
+//    }
+//
+//
     
 }
