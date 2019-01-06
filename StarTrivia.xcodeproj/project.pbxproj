@@ -24,6 +24,10 @@
 		DABF3C8B21DF2B120015354B /* StarshipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF3C8A21DF2B120015354B /* StarshipsVC.swift */; };
 		DABF3C8D21DF2B320015354B /* FilmsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF3C8C21DF2B320015354B /* FilmsVC.swift */; };
 		DABF3C8F21DF2B460015354B /* VehiclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF3C8E21DF2B460015354B /* VehiclesVC.swift */; };
+		DABF3C9121DFF4760015354B /* Homeworld.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF3C9021DFF4760015354B /* Homeworld.swift */; };
+		DABF3C9321DFF4C80015354B /* HomeworldApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF3C9221DFF4C80015354B /* HomeworldApi.swift */; };
+		DAF34AC021E1378C00D7020D /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF34ABF21E1378C00D7020D /* Vehicle.swift */; };
+		DAF34AC221E1384F00D7020D /* VehicleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF34AC121E1384F00D7020D /* VehicleApi.swift */; };
 		FE92741927DE669F543FB86A /* Pods_StarTrivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732271711D8669D71A213063 /* Pods_StarTrivia.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +54,10 @@
 		DABF3C8A21DF2B120015354B /* StarshipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsVC.swift; sourceTree = "<group>"; };
 		DABF3C8C21DF2B320015354B /* FilmsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsVC.swift; sourceTree = "<group>"; };
 		DABF3C8E21DF2B460015354B /* VehiclesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesVC.swift; sourceTree = "<group>"; };
+		DABF3C9021DFF4760015354B /* Homeworld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeworld.swift; sourceTree = "<group>"; };
+		DABF3C9221DFF4C80015354B /* HomeworldApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldApi.swift; sourceTree = "<group>"; };
+		DAF34ABF21E1378C00D7020D /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		DAF34AC121E1384F00D7020D /* VehicleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				DABF3C8421DD8E920015354B /* Person.swift */,
+				DABF3C9021DFF4760015354B /* Homeworld.swift */,
+				DAF34ABF21E1378C00D7020D /* Vehicle.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,6 +186,8 @@
 			isa = PBXGroup;
 			children = (
 				DABF3C8221DD78E80015354B /* PersonApi.swift */,
+				DABF3C9221DFF4C80015354B /* HomeworldApi.swift */,
+				DAF34AC121E1384F00D7020D /* VehicleApi.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -300,13 +312,17 @@
 				DABF3C8D21DF2B320015354B /* FilmsVC.swift in Sources */,
 				DABF3C8B21DF2B120015354B /* StarshipsVC.swift in Sources */,
 				DABF3C8521DD8E920015354B /* Person.swift in Sources */,
+				DABF3C9121DFF4760015354B /* Homeworld.swift in Sources */,
 				DABF3C8721DEF6840015354B /* FadeEnableBtn.swift in Sources */,
+				DABF3C9321DFF4C80015354B /* HomeworldApi.swift in Sources */,
+				DAF34AC221E1384F00D7020D /* VehicleApi.swift in Sources */,
 				DABF3C6021DD55F50015354B /* SelectPersonVC.swift in Sources */,
 				DABF3C5E21DD55F50015354B /* AppDelegate.swift in Sources */,
 				DABF3C7B21DD6A790015354B /* BlackBgView.swift in Sources */,
 				DABF3C8321DD78E80015354B /* PersonApi.swift in Sources */,
 				DABF3C8921DF2AAF0015354B /* HomeworldVC.swift in Sources */,
 				DABF3C7E21DD6AFC0015354B /* Constants.swift in Sources */,
+				DAF34AC021E1378C00D7020D /* Vehicle.swift in Sources */,
 				DABF3C8F21DF2B460015354B /* VehiclesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
